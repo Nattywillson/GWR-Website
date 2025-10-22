@@ -1,0 +1,150 @@
+Build a website inspired by womenmovingmillions.org, branded Global Women Rising
+
+Short instruction for a designer / developer / AI website builder:
+Create a modern, accessible, responsive website for Global Women Rising — an international community of women leaders, changemakers, and philanthropists. Use the layout and user flow inspiration from womenmovingmillions.org (structure, emphasis on impact, clear CTAs, member stories), but produce original visual design, copy, and assets that reflect the Global Women Rising brand and values.
+
+Project goals
+
+Present Global Women Rising as a trusted, professional global community that mobilizes resources and leadership for gender equality.
+
+Convert visitors into members, donors, mentors, and event participants.
+
+Highlight impact metrics, member stories, programs, and easy donation flows.
+
+Maintain accessibility (WCAG AA), SEO best practices, and mobile-first performance.
+
+Brand & content (use the user-supplied text and variations)
+
+Organization name: Global Women Rising
+Hero headline (short): Empowering Women to Rise, Lead, and Thrive
+Hero subhead: Global Women Rising is an international community of visionary women leaders, changemakers, and philanthropists accelerating gender equality through collective giving, mentorship, and advocacy.
+Mission (short & powerful): To unite and empower women leaders worldwide to drive bold action, invest in equality, and create lasting impact for women and girls everywhere.
+Mission (long — for About page): Global Women Rising is an international community of visionary women leaders, changemakers, and philanthropists working together to accelerate gender equality and social progress. We believe in the transformative power of women’s leadership and collective action. Through collaborative giving, mentorship, and advocacy, we direct resources and influence toward initiatives that empower women and girls globally. From economic opportunity to education, from policy change to leadership development, our members drive impact that reshapes communities and inspires the next generation. Together, we’re not just supporting change — we’re building a world where every woman can rise, lead, and thrive.
+
+Required pages & sections
+
+Homepage
+
+Large hero with headline, subhead, primary CTA: Join / Donate / Learn More.
+
+Impact metrics strip (members, grants awarded, countries, lives reached).
+
+Featured programs (Giving Circles, Mentorship, Advocacy, Research).
+
+Member spotlight carousel (quotes + portraits).
+
+Upcoming events / webinars preview.
+
+Donate CTA and footer subscribe form.
+
+About
+
+Mission + Vision, History/Origin story.
+
+Leadership team with bios and photos.
+
+Partners & supporters logos.
+
+Annual reports / downloads.
+
+Programs / What We Do
+
+Giving Circles — how they work, how to start/join.
+
+Mentorship & leadership development.
+
+Advocacy campaigns & policy priorities.
+
+Grants & impact investments (with stories & case studies).
+
+Impact
+
+Interactive metrics, geographic map of projects, case studies, testimonials, downloadable impact report (PDF).
+
+Get Involved
+
+Join as a member — tiered membership benefits and sign-up form.
+
+Donate — one-time & recurring (with suggested amounts and impact statements).
+
+Volunteer / Mentor sign-up.
+
+Host an event or start a local chapter.
+
+Events
+
+Calendar, RSVP integration, past event highlights (photos/videos).
+
+News / Stories
+
+Blog / press / member voices — searchable and taggable.
+
+Members Area (private)
+
+Member directory, resources, discussion forum, events registration, document library.
+
+Contact & Legal
+
+Contact form, social links, privacy policy, terms, donation receipts.
+
+Functionality & integrations
+
+CMS: Headless (Sanity / Contentful / Strapi) for editable content; static pages via Next.js.
+
+Frontend: Next.js (React) + Tailwind CSS. Server-side rendering for SEO.
+
+Donations: Stripe (Stripe Checkout + recurring payments). Provide donation receipts and donor privacy settings.
+
+Membership/Auth: Memberstack / Auth0 / Clerk for gated content and member profiles.
+
+Events: Use Calendly/Eventbrite integration or custom RSVP with payment option.
+
+Email: SendGrid / Mailchimp integration for newsletters and automated receipts.
+
+Analytics: Google Analytics 4 + optional Matomo for self-hosted tracking.
+
+Accessibility: WCAG AA compliance, semantic HTML, keyboard navigation, alt text on images.
+
+Performance: Lazy-load images, image compression (WebP/AVIF), use CDN (Cloudflare), Lighthouse target >90.
+
+SEO: Meta tags, open graph images, schema.org markup for Organization, events, articles, sitemap.xml, robots.txt.
+
+Privacy & Compliance: GDPR-friendly consent banner, cookie policy, secure donation handling (PCI).
+
+Visual & UX guidance
+
+Style: Clean, confident, warm — professional photography of women leaders, candid work/meeting shots, and illustrated icons for programs.
+
+Color palette suggestions: Cream/ivory background, deep teal or navy for primary accents, warm coral or magenta as accent, graphite text. (Adjust to brand colors if available.)
+
+Typography: Modern serif for headings (e.g., Playfair/Cormorant) + neutral sans for body (e.g., Inter/Roboto).
+
+Imagery: Diverse photography and original member portraits. Avoid copying imagery or text from the referenced site — create original photography or licensed stock.
+
+CTA design: Bold buttons with clear microcopy: “Join as Member”, “Donate $50 — Provide a scholarship”, “Start a Giving Circle”.
+
+Layout: Generous white space, 2–3 column grid for desktop, single-column responsive mobile layout, sticky header with Donate and Join buttons.
+
+Sample copy snippets (original, not copied)
+
+Homepage blurb: Global Women Rising convenes women leaders and philanthropists across borders to fund solutions, mentor future leaders, and advocate for systemic change. Join our community to turn intention into measurable impact.
+
+Donate microcopy: Your gift fuels leadership, education, and economic opportunity for women and girls. Choose one-time or monthly support — each level maps to concrete outcomes.
+
+Join microcopy: Become a member to access exclusive events, network with peer leaders, and co-invest in high-impact initiatives.
+
+Technical deliverables & acceptance criteria
+
+Production-ready Next.js repo with components, pages, and CMS integration.
+
+Fully responsive UI matching the design system, cross-browser tested.
+
+Donation flow integrated with Stripe and test keys.
+
+Authenticated members area with protected routes.
+
+Unit tests for critical components and end-to-end test for donation + sign-up flow.
+
+Documentation for deployment (build, env vars), and a staging deployment.
+
+Accessibility audit report with fixes applied.
